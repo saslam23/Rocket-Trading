@@ -1,9 +1,15 @@
-import './App.css';
-
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Navigation from './components/Navigation';
+import Container from 'react-bootstrap/Container';
 function App() {
+
   return (
     <div className="App">
-    <h1>Rocket Trading</h1>
+      <Container>
+      <Navigation/>
+      </Container>
+    
     </div>
   );
 }
