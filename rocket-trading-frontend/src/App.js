@@ -1,13 +1,15 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
 import Navigation from './components/Navigation';
-
+import Container from 'react-bootstrap/Container';
 function App() {
 
   return (
     <div className="App">
-    <Navigation/>
+      <Container>
+      <Navigation/>
+      </Container>
+    
     </div>
   );
 }

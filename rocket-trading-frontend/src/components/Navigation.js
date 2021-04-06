@@ -7,7 +7,7 @@ export default function Navigation() {
         <div className="navi">
     <Navbar bg="#699aa4" variant="dark">
     <li className="logo" href="#home">Rocket Trading</li>
-    <Nav style={{marginRight:'6rem'}} className="ml-auto">
+    <Nav className="ml-auto">
       <li className="nav-item" href="#home">Home</li>
       <li className="nav-item" href="#features">About</li>
       <li className="nav-item" href="#pricing">FAQ</li>
