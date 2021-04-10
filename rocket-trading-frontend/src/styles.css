@@ -4,11 +4,13 @@ body{
   background-color: #699aa4 !important;
 }
 
+
 .nav-item{
 margin:2rem 0 0 2rem;
 font-size: 1rem;
 position: relative;
 color:white;
+cursor: pointer;
 }
 
 .nav-item:before{
@@ -27,12 +29,61 @@ color:white;
 .nav-item:hover:before{
   visibility: visible;
   transform: scaleX(1);
+  
 }
 
-.logo{
+.logo-words{
   margin: 2rem 0 0 0;
   font-size:3rem;
   text-decoration:none;
   list-style: none;
   color:white;
+}
+
+.logo-picture{
+  height:100px;
+  width:150px;
+}
+
+.fade-enter{
+  opacity: 0;
+}
+
+.fade-enter-active{
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+
+.fade-exit-done{
+  opacity:1;
+  transition: all 500ms ease-out;
+}
+
+#home{
+  display:flex;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.join-button{
+  margin: 3rem 0 0 0;
+  border:none;
+  background-color:#00203C;
+  color:white;
+  width: 190px;
+  height: 60px;
+  font-size:20px;
+  border-radius: 10px 10px 10px 10px;
+  transition: all .2s ease-in-out;
+}
+
+.join-button:hover{
+  background-color: #bae7f1;
+  color:black;
+}
+
+#our-team{
+  height:100vh;
+  background-color:white;
 }
