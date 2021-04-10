@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
 
 export default function Navigation() {
     return (
-        <div className="navi">
+        <Container className="navi">
     <Navbar bg="#699aa4" variant="dark">
-    <li className="logo" href="#home">Rocket Trading</li>
+    <li className="logo-words" href="#home">Rocket Trading</li>
     <Nav className="ml-auto">
       <li className="nav-item" href="#home">Home</li>
       <li className="nav-item" href="#features">About</li>
@@ -15,6 +16,6 @@ export default function Navigation() {
       <li className="nav-item" href="#pricing">Team</li>
     </Nav>
   </Navbar>
-        </div>
+        </Container>
     )
 }
