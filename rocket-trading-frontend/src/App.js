@@ -4,6 +4,10 @@ import Navigation from './components/Navigation';
 import Container from 'react-bootstrap/Container';
 import Home from './sections/Home';
 import OurTeam from './sections/OurTeam';
+import Faq from './sections/Faq';
+import Services from './sections/Services';
+import ContactUs from './sections/ContactUs';
+import Footer from './sections/Footer';
 function App() {
 
   return (
@@ -11,7 +15,11 @@ function App() {
       
       <Navigation/>
       <Home/>
+      <Services/>
       <OurTeam/>
+      <ContactUs/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }
