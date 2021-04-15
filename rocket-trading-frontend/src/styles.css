@@ -4,7 +4,6 @@ body{
   background-color: #699aa4 !important;
 }
 
-
 .nav-item{
 margin:2rem 0 0 2rem;
 font-size: 1rem;
@@ -23,7 +22,7 @@ cursor: pointer;
   background-color: #bae7f1;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .nav-item:hover:before{
@@ -62,8 +61,9 @@ cursor: pointer;
 
 #home{
   display:flex;
-  margin-top: 6rem;
+  margin-top: 14rem;
   margin-bottom: 6rem;
+  height:auto;
 }
 
 .join-button{
@@ -83,7 +83,144 @@ cursor: pointer;
   color:black;
 }
 
+/*SERVICES*/
+
+#services{
+  height:100vh;
+  background:white;
+}
+
+.service-card{
+  height:300px;
+  width:300px;
+  margin-left:7rem;
+  margin-bottom:2rem;
+  background-color:#699aa4;
+  border: 2px solid black;
+}
+
+
+
+/*ABOUT OUR TEAM*/
+
 #our-team{
+  height:auto;
+  background-color:white;
+}
+
+.team-card{
+  height:504px;
+  width:400px;
+  margin-left:7rem;
+  margin-bottom:2rem;
+  background-color:#699aa4;
+  border: 2px solid black;
+}
+
+.section-title{
+  text-align:center;
+  padding-top: 2rem;
+  position: relative;
+}
+
+.section-title:after{
+  position: absolute;
+  bottom:0;
+  left:0;
+  content:"";
+  width:100%;
+  height:2px;
+  background-color:#699AA4;
+  transform:scaleX(.08);
+}
+
+.team-cards-container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin-right:6rem;
+  justify-content: center;
+  padding-top:2rem;
+}
+
+.member-image{
+  width:396px;
+  height:500px;
+}
+
+.hover-name{
+  text-align:center;
+  padding-top:1rem;
+  text-decoration: underline;
+  color:rgb(245, 245, 245);
+}
+
+.member-excerpt{
+  height:auto;
+  font-size:1.2rem;
+  text-align:justify;
+  padding:1.5rem;
+  color:rgb(245, 245, 245);
+}
+
+/*CONCTACT US*/
+
+#contact{
   height:100vh;
   background-color:white;
+}
+
+/* FAQ*/
+
+#faq{
+  height:100vh;
+  background-color:white;
+}
+
+.expander{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  height:auto;
+}
+
+.expand-icon::after{
+  content:'';
+  position:absolute;
+  width:20px;
+  height:3px;
+  background-color:black;
+}
+
+.expand-icon::after{
+  transform: translateY(-10px);
+  transform: rotate(90deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.expand-icon{
+  margin-top:.8rem;
+  width:20px;
+  background-color:black;
+  height:3px;
+  transition: all 0.5s ease-in-out;
+}
+
+.expander.open .expand-icon{
+  background: transparent;
+}
+.expander.open .expand-icon::after{
+  transform: rotate(90deg);
+  transform: translateY(0);
+}
+
+/*FOOTER*/
+
+.footer{
+  position:absolute;
+  height:50px;
+  left:0;
+  width:100%;
+  text-align:center;
+  color:rgb(245, 245, 245);
 }
