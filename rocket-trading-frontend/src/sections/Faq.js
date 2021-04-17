@@ -21,17 +21,20 @@ if(expanded.includes(info.id) === false){
     return (
         <div id="faq">
             <h1 className="section-title">FAQ</h1>
+            <br/>
             <Container md={12}>
                 {faq.map((info, index) =>
                 <div key={info.id}>
                      <hr/>
+                     <div style={{display:'flex'}}>
                      <div onClick={()=>expandFaq(info, index)} className={`expander ${toggle && expanded.includes(...info.id)  ? "open" :null}`}>
                      <div className="expand-icon"></div>
-                     <div style={{display:'flex', flexDirection:'column'}}>
-                    <p style={{marginLeft:'3rem', fontWeight:'bold'}}>{info.question}</p>
+                     <div style={{display:'flex', flexDirection:'column', textAlign:'left'}}>
+                    <p className="question">{info.question}</p>
                     {toggle && expanded.includes(info.id) ?
-                    <p style={{paddingLeft:'3rem'}}>{info.answer}</p>: ''
+                    <p className="answer">{info.answer}</p>: ''
                     }
+                    </div>
                     </div>
                     </div>
                 <hr/>

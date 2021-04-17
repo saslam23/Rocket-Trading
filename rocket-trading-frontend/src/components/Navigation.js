@@ -8,18 +8,20 @@ import {Link, scrollSpy, scroller} from 'react-scroll';
 
 export default function Navigation() {
     return (
-        <Container className="navi">
-    <Navbar style={{backgroundColor:'#699aa4', padding:'0 18rem 0 18rem'}} fixed='top' variant="dark">
-    <li className="logo-words" href="#home"><img style={{width:'75px', height:'100px', marginRight:'1.5rem'}} src="/assets/favicon.png"/>Rocket Trading</li>
+      <Container >
+<Navbar className="nav-style" fixed="top" expand="lg">
+  <Navbar.Brand style={{color:'white'}} className="logo-words" href="#home"><img style={{width:'55px', height:'75px', marginRight:'1.5rem'}} src="/assets/favicon.png"/>Rocket Trading</Navbar.Brand>
+  <br/>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse className="flex-row" id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <li className="nav-item" href="#home"><Link to="home" spy={true} activeClass="navi-link" smooth={true}>Home</Link></li>
-      <li className="nav-item" href="#pricing"><Link to="services" spy={true} activeClass="navi-link" smooth={true}>Services</Link></li>
-      <li className="nav-item" href="#features">About</li>
-      <li className="nav-item" href="#pricing">FAQ</li>
-      <li className="nav-item" href="#pricing">Contact</li>
-      <li className="nav-item" href="#pricing">Our Team</li>
+      <Nav.Link style={{color:'white'}} className="nav-item"><Link to="home" spy={true}  activeClass="navi-link" smooth={true}>Home</Link></Nav.Link>
+      <Nav.Link style={{color:'white'}} className="nav-item"><Link to="services" spy={true} offset={-70} activeClass="navi-link" smooth={true}>Services</Link></Nav.Link>
+      <Nav.Link style={{color:'white'}} className="nav-item"><Link to="our-team" spy={true} offset={5} activeClass="navi-link" smooth={true}>Team</Link></Nav.Link>
+      <Nav.Link style={{color:'white'}} className="nav-item"><Link to="faq" spy={true} offset={5} activeClass="navi-link" smooth={true}>FAQ</Link></Nav.Link>
     </Nav>
-  </Navbar>
-        </Container>
+  </Navbar.Collapse>
+</Navbar>
+  </Container>
     )
 }
