@@ -285,6 +285,7 @@ li {
 }
 
 .expand-icon {
+  padding-right: 1rem;
   margin-top: .8rem;
   width: 20px;
   background-color: black;
@@ -389,6 +390,8 @@ li {
 }
 
 @media only screen and (max-width:550px) {
+
+
 
   .landing-title {
     font-family: 'Roboto', sans-serif;
