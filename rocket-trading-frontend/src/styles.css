@@ -3,6 +3,7 @@ body {
   padding: 0;
   background-color: #699aa4 !important;
   overflow-x: hidden;
+
 }
 
 .nav-style {
@@ -66,7 +67,6 @@ body {
 
 .logo-words {
   margin: 2rem 0 0 0;
-  font-size: 2rem;
   text-decoration: none;
   list-style: none;
   color: white;
@@ -107,7 +107,6 @@ body {
   position: relative;
 }
 
-
 .join-button {
   margin: 3rem 0 0 1rem;
   border: none;
@@ -132,11 +131,23 @@ body {
   padding-right: 5rem;
 }
 
+.landing-title {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 3rem;
+}
+
 .landing-info {
   position: absolute;
   bottom: 0;
   top: 40%;
   left: 18%;
+}
+
+.landing-paragraph {
+  min-width: 450px;
+  max-width: 875px;
+  color: white;
 }
 
 /*SERVICES*/
@@ -315,11 +326,7 @@ li {
   color: rgb(245, 245, 245);
 }
 
-.landing-title {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  font-size: 3rem;
-}
+
 
 
 @media only screen and (max-width:1200px) {
@@ -378,5 +385,82 @@ li {
 @media only screen and (max-width:850px) {
   .rocket-image {
     display: none;
+  }
+}
+
+@media only screen and (max-width:550px) {
+
+  .landing-title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  .landing-info {
+    position: absolute;
+    bottom: 0;
+    top: 25%;
+    left: 5%;
+  }
+
+  .landing-paragraph {
+    font-size: 1.3rem;
+    min-width: 350px;
+  }
+
+  .team-card {
+    height: 554px;
+    width: 350px;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    background-color: #699aa4;
+    border: 2px solid black;
+  }
+
+  .member-image {
+    width: 346px;
+  }
+
+  .logo-words {
+    font-size: 2rem !important;
+  }
+}
+
+
+@media only screen and (max-width:400px) {
+
+  .landing-title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  .landing-info {
+    position: absolute;
+    bottom: 0;
+    top: 25%;
+    left: 5%;
+  }
+
+  .landing-paragraph {
+    font-size: 1.3rem;
+    min-width: 350px;
+  }
+
+  .team-card {
+    height: 554px;
+    width: 300px;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    background-color: #699aa4;
+    border: 2px solid black;
+  }
+
+  .member-image {
+    width: px;
+  }
+
+  .logo-words {
+    font-size: 2rem !important;
   }
 }
