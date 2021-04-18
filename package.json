@@ -1,0 +1,24 @@
+{
+  "name": "rocket-trading",
+  "version": "1.0.0",
+  "description": "Rocket Trading",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd accounts-frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saslam23/Rocket-Trading.git"
+  },
+  "author": "Saad Aslam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saslam23/Rocket-Trading/issues"
+  },
+  "homepage": "https://github.com/saslam23/Rocket-Trading#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
