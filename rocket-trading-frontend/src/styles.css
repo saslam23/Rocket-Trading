@@ -124,11 +124,26 @@ body {
   background-color: white;
 }
 
+.service-card-control {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.service-list-style {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Mirza', cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
 .service-card {
-  height: 600px;
-  width: 550px;
-  background-color: #699aa4;
-  border: 2px solid black;
+  height: 650px;
+  width: 600px;
+  background-image: linear-gradient(180deg, #699aa4, white);
 }
 
 
