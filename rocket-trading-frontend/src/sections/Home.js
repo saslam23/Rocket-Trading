@@ -11,8 +11,8 @@ export default function Home() {
                 <div style={{marginRight:'10rem'}}>
            <h1 className="landing-title">Welcome to Rocket Trading!</h1>
            <br/>
-            <h3 style={{minWidth:'450px',maxWidth:'875px', color:'white'}}>This discord is mean for ALL LEVELS of traders.  If you are looking for a place to expand your knowledge or share your experience, you have found the right place! We are here for you. Now and always.</h3>
-            <div style={{position:'absolute', left:'-1%'}}>
+            <h3 className="landing-paragraph">This discord is mean for ALL LEVELS of traders.  If you are looking for a place to expand your knowledge or share your experience, you have found the right place! We are here for you. Now and always.</h3>
+            <div className="button-div">
             <a style={{textDecoration:'none'}} href="https://discord.gg/hZ2M9ZnQAB"><button className="join-button" >Join Now for Free!</button></a>
             <a style={{textDecoration:'none'}} href="https://launchpass.com/rocket-trading/elite-options"><button className="join-button" >Join our Elite Program! </button></a> 
             </div>
