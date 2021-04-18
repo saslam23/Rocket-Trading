@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #699aa4 !important;
+  overflow-x: hidden;
 }
 
 .nav-style {
@@ -94,27 +95,27 @@ body {
 
 .home {
   display: flex;
-  padding-top:20rem;
-  background-image: url("../src/stocks.jpeg");
+  padding-top: 20rem;
+  background-color: #699aa4;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   width: 100%;
+  height: 100vh;
   filter: blur(10px);
   -webkit-filter: blur(10px);
-  position:relative;
+  position: relative;
 }
 
 
 .join-button {
-  margin: 3rem 0 0 2rem;
+  margin: 3rem 0 0 1rem;
   border: none;
   background-color: #00203C;
   color: white;
-  width: 200px;
-  height: 50px;
-  font-size: 19px;
+  width: 230px;
+  height: 70px;
+  font-size: 23px;
   border-radius: 10px 10px 10px 10px;
   transition: all .2s ease-in-out;
   font-family: 'Mirza', cursive;
@@ -125,19 +126,47 @@ body {
   color: black;
 }
 
+.rocket-image {
+  height: 275px;
+  width: 310px;
+  padding-right: 5rem;
+}
+
+.landing-info {
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 18%;
+}
+
 /*SERVICES*/
 
 .services {
   height: 100%;
   background-color: white;
-  padding-top:8rem;
+  padding-top: 9rem;
+}
+
+.service-card-control {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+.service-list-style {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Mirza', cursive;
+}
+
+li {
+  list-style-type: none;
 }
 
 .service-card {
-  height: 600px;
-  width: 550px;
-  background-color: #699aa4;
-  border: 2px solid black;
+  height: 650px;
+  width: 600px;
+  background-image: linear-gradient(180deg, #699aa4, white);
 }
 
 
@@ -147,7 +176,7 @@ body {
 .our-team {
   height: auto;
   background-color: white;
-  padding-top: 8rem;
+  padding-top: 9rem;
 }
 
 .team-card {
@@ -218,7 +247,7 @@ body {
 /* FAQ*/
 
 #faq {
-  padding: 8rem 3rem 12rem 3rem;
+  padding: 11rem 3rem 12rem 3rem;
   height: auto;
   background-color: white;
 }
@@ -286,14 +315,68 @@ body {
   color: rgb(245, 245, 245);
 }
 
-.landing-title{
+.landing-title {
   font-family: 'Roboto', sans-serif;
-  color:white;
-  font-size:3rem;
+  color: white;
+  font-size: 3rem;
+}
+
+
+@media only screen and (max-width:1200px) {
+  .nav-style {
+    padding: 0 2rem 0 2rem !important;
+  }
+
+  .landing-info {
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 15%;
+  }
 }
 
 @media only screen and (max-width:1000px) {
   .nav-style {
-    padding: 0 !important;
+    padding: 0 2rem 0 2rem !important;
+  }
+
+  .rocket-image {
+    height: 275px;
+    width: 310px;
+    margin: 5rem 5rem 0 0;
+  }
+
+  .landing-info {
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 5%;
+  }
+
+}
+
+
+@media only screen and (max-width:965px) {
+  .rocket-image {
+    height: 275px;
+    width: 310px;
+    margin: 3rem 5rem 0 0;
+  }
+
+  .landing-info {
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 5%;
+  }
+
+  .home {
+    height: 110vh;
+  }
+}
+
+@media only screen and (max-width:850px) {
+  .rocket-image {
+    display: none;
   }
 }

@@ -7,9 +7,9 @@ export default function Services() {
         <div id="services">
         <div className="services">
             <h1 className="section-title">Services</h1>
-            <div>
+            <Container >
             <ServicesCard/>
-            </div>
+            </Container>
         </div>
         </div>
     )
