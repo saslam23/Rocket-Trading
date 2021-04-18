@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd accounts-frontend && npm install && npm run build"
+    "heroku-postbuild": "cd rocket-trading-frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
