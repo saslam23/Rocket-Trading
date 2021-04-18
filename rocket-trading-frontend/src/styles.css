@@ -94,10 +94,18 @@ body {
 
 .home {
   display: flex;
-  padding-top: 14rem;
-  margin-bottom: 6rem;
-  height: 70vh;
+  padding-top:20rem;
+  background-image: url("../src/stocks.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  position:relative;
 }
+
 
 .join-button {
   margin: 3rem 0 0 2rem;
@@ -122,6 +130,7 @@ body {
 .services {
   height: 100%;
   background-color: white;
+  padding-top:8rem;
 }
 
 .service-card-control {
@@ -224,7 +233,7 @@ li {
 /* FAQ*/
 
 #faq {
-  padding: 5rem 3rem 12rem 3rem;
+  padding: 8rem 3rem 12rem 3rem;
   height: auto;
   background-color: white;
 }
@@ -265,11 +274,11 @@ li {
 
 .expander.open .expand-icon::after {
   transform: rotate(90deg);
-  transform: translateY(0);
+  transform: translateY(0px);
 }
 
 .question {
-  margin-left: 3rem;
+  margin-left: 2.5rem;
   font-weight: bold;
   font-size: 1.6rem;
   font-family: 'Mirza', cursive;
@@ -290,6 +299,12 @@ li {
   width: 100%;
   text-align: center;
   color: rgb(245, 245, 245);
+}
+
+.landing-title{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size:3rem;
 }
 
 @media only screen and (max-width:1000px) {
