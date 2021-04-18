@@ -427,25 +427,8 @@ li {
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:375px) {
 
-  .landing-title {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 1.7rem;
-  }
-
-  .landing-info {
-    position: absolute;
-    bottom: 0;
-    top: 25%;
-    left: 5%;
-  }
-
-  .landing-paragraph {
-    font-size: 1.3rem;
-    min-width: 350px;
-  }
 
   .team-card {
     height: 554px;
@@ -457,10 +440,7 @@ li {
   }
 
   .member-image {
-    width: px;
+    width: 296px;
   }
 
-  .logo-words {
-    font-size: 2rem !important;
-  }
 }
