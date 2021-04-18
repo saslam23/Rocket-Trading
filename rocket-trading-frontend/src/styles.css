@@ -95,12 +95,12 @@ body {
 .home {
   display: flex;
   padding-top:20rem;
-  background-image: url("../src/stocks.jpeg");
+  background-color: #699aa4;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
   width: 100%;
+  height:100vh;
   filter: blur(10px);
   -webkit-filter: blur(10px);
   position:relative;
