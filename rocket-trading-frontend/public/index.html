@@ -10,17 +10,22 @@
       content="Web site created using create-react-app"/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;400&family=Audiowide&family=Fugaz+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Mirza&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
     <title>Rocket Trading</title>
+
   </head>
   <body>
     <div id="root"></div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>
       AOS.init();
+  
+      $(window).on('load', function () {
+        AOS.refresh();
+      });
     </script>
+    
   </body>
 </html>

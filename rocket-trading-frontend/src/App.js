@@ -8,16 +8,21 @@ import Faq from './sections/Faq';
 import Services from './sections/Services';
 import ContactUs from './sections/ContactUs';
 import Footer from './sections/Footer';
+import Features from './sections/Features';
+import GetStarted from './sections/GetStarted';
 function App() {
 
   return (
     <div className="App">
       
       <Navigation/>
-      <Home/>
-      <Services/>
-      <OurTeam/>
-      <Faq/>
+      <Home id="home"/>
+      <Features id="features"/>
+      <GetStarted/>
+      <OurTeam id="ourteam"/>
+      <Services id="services"/>
+      <Faq id="faq"/>
+      <ContactUs/>
       <Footer/>
 
     </div>

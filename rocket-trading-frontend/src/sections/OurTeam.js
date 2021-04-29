@@ -1,6 +1,8 @@
 import React,{useState} from 'react'
 import TeamMemberCard from '../components/TeamMemberCard';
 import {team} from '../data';
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row';
 
 const ourTeam = (member) =>{
     return(
@@ -11,6 +13,7 @@ const ourTeam = (member) =>{
         position={member.position}
         excerpt={member.excerpt}
         image={member.image}
+        duration={member.duration}
         />
     )
 }
@@ -19,13 +22,15 @@ const ourTeam = (member) =>{
 
 export default function OurTeam() {
     return (
-        <div id="our-team" >
+        <div id="ourteam">
             <div className="our-team">
-            <h1 className="section-title">About Our Team</h1>
+            <h1 className="section-title">Our Team</h1>
             <br/>
-            <div  className="team-cards-container">
+            <Container>
+            <Row>
             {team.map(ourTeam)}
-            </div>
+            </Row>
+            </Container>
             </div>
         </div>
     )
