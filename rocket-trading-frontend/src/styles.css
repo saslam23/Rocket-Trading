@@ -532,6 +532,13 @@ p {
 
 }
 
+@media only screen and (height:1366px) {
+  .get-started-container {
+    bottom: -50%;
+    left: 18%;
+  }
+}
+
 
 @media only screen and (max-width:965px) {
   .get-started-container {
@@ -589,6 +596,17 @@ p {
 
 }
 
+@media only screen and (height:1024px) {
+  .get-started-container {
+    bottom: -110%;
+    left: 20%;
+  }
+
+  .team-card {
+    margin-left: 8rem;
+  }
+}
+
 @media only screen and (max-width:701px) {
   .get-started-container {
     bottom: -145%;
@@ -622,7 +640,7 @@ p {
 
 
   .get-started-container {
-    bottom: -150%;
+    bottom: -175%;
     left: 20%;
   }
 }
@@ -633,8 +651,13 @@ p {
   }
 
   .get-started-container {
-    bottom: -165%;
-    left: 20%;
+    bottom: -190%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  .get-started-container {
+    bottom: -170%;
   }
 }
 
@@ -663,16 +686,39 @@ p {
     margin-right: 1.5rem;
   }
 
+  .get-started-container {
+    bottom: -220%;
+    left: 20%;
+  }
+
   .nav-style {
     background-color: #699aa4 !important;
 
   }
 }
 
+@media only screen and (height:736px) {
+  .get-started-container {
+    bottom: -225%;
+    left: 20%;
+  }
+}
+
+
+
+
+@media only screen and (height:812px) {
+  .get-started-container {
+    bottom: -120%;
+    left: 20%;
+  }
+
+}
+
 @media only screen and (max-width:376px) {
 
   .get-started-container {
-    bottom: -205%;
+    bottom: -245%;
     left: 20%;
   }
 
@@ -682,11 +728,39 @@ p {
 
 }
 
+@media only screen and (max-width:375px) {
+
+  .get-started-container {
+    bottom: -205%;
+    left: 20%;
+  }
+
+}
+
+@media only screen and (height:667px) {
+
+  .get-started-container {
+    bottom: -245%;
+    left: 20%;
+  }
+}
+
 @media only screen and (max-width:365px) {
-
-
   .team-card {
     width: 300px;
   }
+}
 
+@media only screen and (max-width:361px) {
+  .get-started-container {
+    bottom: -265%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .get-started-container {
+    bottom: -300%;
+    left: 20%;
+  }
 }
