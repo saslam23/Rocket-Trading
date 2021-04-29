@@ -612,7 +612,8 @@ p {
 @media only screen and (max-width:414px) {
   .team-card {
     width: 375px;
-    height: 200px;
+    height: auto;
+    padding-bottom: 1rem;
   }
 
 }
@@ -641,7 +642,6 @@ p {
 
   .team-card {
     width: 340px;
-    height: 250px;
   }
 
 }
@@ -649,6 +649,5 @@ p {
 @media only screen and (max-width:365px) {
   .team-card {
     width: 300px;
-    height: 260px;
   }
 }
