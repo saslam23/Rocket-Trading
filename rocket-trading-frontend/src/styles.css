@@ -287,11 +287,10 @@ li {
   margin-top: 3rem;
   flex-wrap: wrap;
   justify-content: center;
-  z-index: -1;
   position: relative;
 }
 
-.get-started-button {
+.get-started-button{
   border: none;
   background: transparent;
   width: 175px;
@@ -299,7 +298,6 @@ li {
   border: solid 1px white;
   border-radius: 50px;
   color: white;
-  transition: all .3s ease-in-out;
 }
 
 
@@ -307,6 +305,7 @@ li {
 .get-started-button:hover {
   background: #00203C;
   border: solid 1px #00203C;
+  transition: all .3s ease-in-out;
 }
 
 .get-started-info {
@@ -441,6 +440,7 @@ li {
   background-color: black;
   height: 3px;
   transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .expander.open .expand-icon {
@@ -465,7 +465,6 @@ li {
 }
 
 .question.change {
-
   color: #699aa4;
 }
 

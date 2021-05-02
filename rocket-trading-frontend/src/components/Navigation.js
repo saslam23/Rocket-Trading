@@ -23,7 +23,7 @@ export default function Navigation() {
     return (
       <Container >
 <Navbar className={`nav-style ${scroll ? 'scroll': null}`}fixed="top" expand="lg">
-  <Navbar.Brand style={{color:'white', fontSize:'2.3rem'}} className="logo-words" href="#home"><img className="logo-image" src="/assets/favicon.png"/>Rocket Trading</Navbar.Brand>
+  <Navbar.Brand style={{color:'white', fontSize:'2.3rem'}} className="logo-words" href="#home"><img className="logo-image" src="/assets/rocket-watermark.png"/>Rocket Trading</Navbar.Brand>
   <br/>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse className="flex-row" id="basic-navbar-nav">
