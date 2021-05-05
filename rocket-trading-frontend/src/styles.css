@@ -78,6 +78,7 @@ body {
   text-decoration: none;
   list-style: none;
   color: white;
+  font-family: 'Average Sans', sans-serif;
 }
 
 .logo-image {
@@ -161,6 +162,7 @@ body {
   bottom: 0;
   top: 25%;
   left: 21.5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .landing-paragraph {
@@ -491,11 +493,20 @@ p {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-@media only screen and (max-width:1200px) {
-
+@media only screen and (max-width:1681px){
   .nav-style {
-    padding: 0 2rem 0 2rem !important;
+    padding: 0 22rem 0 22rem !important;
   }
+  
+}
+
+@media only screen and (max-width:1400px){
+  .nav-style {
+    padding: 0 1rem 0 1rem !important;
+  }
+}
+
+@media only screen and (max-width:1200px) {
 
   .landing-info {
     position: absolute;
@@ -511,9 +522,6 @@ p {
 
 @media only screen and (max-width:1000px) {
 
-  .nav-style {
-    padding: 0 2rem 0 2rem !important;
-  }
 
   .rocket-image {
     height: 275px;
@@ -587,6 +595,8 @@ p {
   .team-card {
     margin-left: 8rem;
   }
+ 
+  
 }
 
 
@@ -598,6 +608,16 @@ p {
 
   .logo-words {
     font-size: 2rem !important;
+  }
+
+  .question {
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .answer {
+    padding-left: 0rem;
+    padding-right: 1rem;
   }
 }
 
@@ -631,7 +651,10 @@ p {
 
   .nav-style {
     background-color: #699aa4 !important;
-
+    
+  }
+  .logo-image {
+    width: 60px;
   }
 }
 
@@ -642,6 +665,11 @@ p {
   .team-card {
     width: 340px;
   }
+
+  .logo-image {
+    margin-right:15px;
+  }
+
 
 }
 
