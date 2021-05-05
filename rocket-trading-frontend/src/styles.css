@@ -185,7 +185,11 @@ body {
   padding-left: 3rem;
   font-family: 'Martel', serif;
 }
-
+.service-card-number-lined{
+  padding-left: 3rem;
+  text-decoration:line-through;
+  opacity:0.3;
+}
 .service-card-number {
   padding-top: 2.3rem;
   padding-left: 3rem;
