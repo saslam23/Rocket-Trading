@@ -16,7 +16,7 @@ export default function ServicesCard(props) {
                         </div>
                     )
                 })}
-                 <a style={{textDecoration:'none'}} href="https://discord.gg/hZ2M9ZnQAB"><button className="join-button">Get started</button></a>
+                 <a style={{textDecoration:'none'}} href="https://launchpass.com/rocket-trading/elite-options"><button className="join-button">Get started</button></a>
             </ul>
             
             </div>
