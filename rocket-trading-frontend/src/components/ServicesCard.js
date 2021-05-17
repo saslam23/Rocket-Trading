@@ -6,7 +6,7 @@ export default function ServicesCard(props) {
     return (
         <div className="service-card-control">
             <div className="service-card">
-            <h1 className="service-card-number">$40</h1>
+            <h1 className="service-card-number">$30</h1>
             <h3 className="service-card-number-lined">$60</h3>
             <h3 className="service-card-title">per month <br/></h3>
             <ul className="service-list-style">
