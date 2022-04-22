@@ -16,7 +16,7 @@ export default function Home() {
             <h6 className="landing-paragraph" data-aos="fade-right" data-aos-duration="1000">We're here to help. Now and always.</h6>
             <div className="button-div">
             <Link to="services" offset={-110} hashSpy={true} spy={true}  activeClass="navi-link" smooth={true}><button className="join-button" >Join Now for Free!</button></Link>
-            <a style={{textDecoration:'none'}} className="elite-program-padding" href="https://launchpass.com/rocket-trading/elite-options"><button className="join-button" >Join our Elite Program</button></a> 
+            <Link to="services" offset={-110} className="elite-program-padding" hashSpy={true} spy={true}  activeClass="navi-link" smooth={true}><button className="join-button" >Join our Elite Program</button></Link>
             </div>
             </div> 
             </div>
