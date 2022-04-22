@@ -2,25 +2,59 @@ import React from 'react'
 import { GiCheckMark } from 'react-icons/gi';
 import {services} from '../data';
 
+/* 
+const ServiceList = () => {
+    return (
+      <div>
+   <ul className="service-list-style">
+               
+               {services.servicesList.map((item) =>{
+                   return(
+                     <div key={item.id}>
+                     <li data-aos="fade-up" data-aos-duration="500"><GiCheckMark color="#699aa4" size={20}/> {item.id}</li>
+                     </div>
+                
+                   )
+               })}
+  
+  
+         </ul>
+      </div>
+    )
+  }
+   */
+
+
+
+
 export default function ServicesCard(props) {
     return (
-        <div className="service-card-control">
+        <div style={{justifyContent:'space-evenly', flexWrap:'wrap',}} className="service-card-control">
+               {services.map((item) =>{
+                     return(
             <div className="service-card">
-            <h1 className="service-card-number">$30</h1>
-            <h3 className="service-card-number-lined">$60</h3>
-            <h3 className="service-card-title">per month <br/></h3>
+            <h1 className="service-card-number">{item.cardPrice}</h1>
+            
+             <h3 className="service-card-number-lined">{item.cardLined}</h3>
+            <h3 className="service-card-title">{item.cardTitle}<br/></h3>
             <ul className="service-list-style">
-                {services.map((item)=>{
-                    return(
+             
+                  {item.servicesList.map((item) =>{
+                      return(
                         <div key={item.id}>
                         <li data-aos="fade-up" data-aos-duration="500"><GiCheckMark color="#699aa4" size={20}/> {item.service}</li>
                         </div>
-                    )
-                })}
-                 <a style={{textDecoration:'none'}} href="https://launchpass.com/rocket-trading/elite-options"><button className="join-button">Get started</button></a>
+                   
+                      )
+                  })}
+                  <div style={{position:'absolute', bottom:'3%'}}>
+                 <a style={{textDecoration:'none'}} href={item.link}><button className="join-button">{item.buttonName}</button></a>
+                 </div>
             </ul>
             
             </div>
+             )
+                    })}
         </div>
     )
 }

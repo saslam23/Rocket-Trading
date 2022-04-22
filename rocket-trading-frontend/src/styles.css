@@ -120,6 +120,7 @@ body {
   position: relative;
 }
 
+
 .join-button {
   margin: 3rem 0 0 0rem;
   border: none;
@@ -186,13 +187,11 @@ body {
   padding-left: 3rem;
   font-family: 'Martel', serif;
 }
-
-.service-card-number-lined {
+.service-card-number-lined{
   padding-left: 3rem;
-  text-decoration: line-through;
-  opacity: 0.3;
+  text-decoration:line-through;
+  opacity:0.3;
 }
-
 .service-card-number {
   padding-top: 2.3rem;
   padding-left: 3rem;
@@ -220,7 +219,8 @@ li {
 }
 
 .service-card {
-  height: auto;
+  position:relative;
+  height: 775px;
   width: 500px;
   background-color: white;
   box-shadow: 0px 0px 12px #d3d3d3;
@@ -299,7 +299,7 @@ li {
   position: relative;
 }
 
-.get-started-button {
+.get-started-button{
   border: none;
   background: transparent;
   width: 175px;
@@ -500,14 +500,14 @@ p {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-@media only screen and (max-width:1681px) {
+@media only screen and (max-width:1681px){
   .nav-style {
     padding: 0 22rem 0 22rem !important;
   }
-
+  
 }
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1400px){
   .nav-style {
     padding: 0 1rem 0 1rem !important;
   }
@@ -543,11 +543,6 @@ p {
     left: 5%;
   }
 
-  .nav-style {
-    background-color: #699aa4 !important;
-
-  }
-
 }
 
 
@@ -573,7 +568,6 @@ p {
   .team-card {
     margin-left: 8rem;
   }
-
 }
 
 
@@ -608,8 +602,8 @@ p {
   .team-card {
     margin-left: 8rem;
   }
-
-
+ 
+  
 }
 
 
@@ -662,7 +656,10 @@ p {
     margin-right: 1.5rem;
   }
 
-
+  .nav-style {
+    background-color: #699aa4 !important;
+    
+  }
   .logo-image {
     width: 60px;
   }
@@ -677,7 +674,7 @@ p {
   }
 
   .logo-image {
-    margin-right: 15px;
+    margin-right:15px;
   }
 
 

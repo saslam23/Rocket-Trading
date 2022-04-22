@@ -117,59 +117,97 @@ const features = [
 
 const services = [
     {
-        id:"service1",
-        service:"Live alerts from our Top Analyst"
-    
-    },
-    {
-        id:"service2",
-        service:"Access to all chatrooms"
-    },
-    {
-        id:"service3",
-        service:"Weekly Watchlists"
-    
-    },
-    {
-        id:"service4",
-        service:"Trade alerts & ideas"
-    
-    },
-    {
-        id:"service5",
-        service:"Trading strategy advice & Risk Management"
-    
-    },
-    {
-        id:"service6",
-        service:"Active leadership and support"
-    
-    },
-    {
-        id:"service7",
-        service:"Larger Profit Signals"
-    
-    },
-    {
-        id:"service8",
-        service:"Advanced Research from our analyst"
-    
-    },
-    {
-        id:"service9",
-        service:"Crypto"
-    
-    },
-    {
-        id:"service10",
-        service:"Penny Stock"
-    
-    },
-    {
-        id:"service11",
-        service:"Long Term Plays"
-    
+        id:1,
+        cardPrice:'Free',
+        cardLined: ' ',
+        cardTitle:' ',
+        servicesList:[
+            {
+                id:"service1",
+                service:"Weekly Stock Picks"
+            
+            },
+            {
+                id:"service2",
+                service:"Sports Bet Picks"
+            },
+            {
+                id:"service3",
+                service:"Educational Resources"
+            
+            }
+            
+        ],
+        link:"https://discord.gg/hZ2M9ZnQAB",
+        buttonName:'Get Started'
     }
+    ,  
+    {
+        id:0,
+        cardPrice: '$30',
+        cardLined: '$60',
+        cardTitle:'per month',
+        servicesList:[
+            {
+                id:"service1",
+                service:"Live alerts from our Top Analyst"
+            
+            },
+            {
+                id:"service2",
+                service:"Access to all chatrooms"
+            },
+            {
+                id:"service3",
+                service:"Weekly Watchlists"
+            
+            },
+            {
+                id:"service4",
+                service:"Trade alerts & ideas"
+            
+            },
+            {
+                id:"service5",
+                service:"Trading strategy advice & Risk Management"
+            
+            },
+            {
+                id:"service6",
+                service:"Active leadership and support"
+            
+            },
+            {
+                id:"service7",
+                service:"Larger Profit Signals"
+            
+            },
+            {
+                id:"service8",
+                service:"Advanced Research from our analyst"
+            
+            },
+            {
+                id:"service9",
+                service:"Crypto"
+            
+            },
+            {
+                id:"service10",
+                service:"Penny Stock"
+            
+            },
+            {
+                id:"service11",
+                service:"Long Term Plays"
+            
+            }
+        ],
+        link:"https://launchpass.com/rocket-trading/elite-options",
+        buttonName:'Get Started'
+    }
+    
+    
 ]
 
 export {team, faq, features, services};
