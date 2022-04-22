@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import {motion} from 'framer-motion';
-
+import * as Scroll from 'react-scroll';
+import {Link, scrollSpy, scroller} from 'react-scroll';
+import Nav from 'react-bootstrap/Nav';
 export default function Home() {
     const [change, setChange] = useState(false);
     return (
@@ -13,7 +15,7 @@ export default function Home() {
            <br/>
             <h6 className="landing-paragraph" data-aos="fade-right" data-aos-duration="1000">We're here to help. Now and always.</h6>
             <div className="button-div">
-            <a style={{textDecoration:'none'}} href="https://discord.gg/hZ2M9ZnQAB"><button className="join-button" >Join Now for Free!</button></a>
+            <Link to="services" offset={-110} hashSpy={true} spy={true}  activeClass="navi-link" smooth={true}><button className="join-button" >Join Now for Free!</button></Link>
             <a style={{textDecoration:'none'}} className="elite-program-padding" href="https://launchpass.com/rocket-trading/elite-options"><button className="join-button" >Join our Elite Program</button></a> 
             </div>
             </div> 
