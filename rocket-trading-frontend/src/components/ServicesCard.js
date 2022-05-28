@@ -33,7 +33,8 @@ export default function ServicesCard(props) {
                {services.map((item) =>{
                      return(
             <div className="service-card">
-            <h1 className="service-card-number">{item.cardPrice}</h1>
+            <h1 className="service-card-number" style={{fontSize:'2.5rem'}}>{item.programType}</h1>
+            <h2 className="service-card-number">{item.cardPrice}</h2>
             
              <h3 className="service-card-number-lined">{item.cardLined}</h3>
             <h3 className="service-card-title">{item.cardTitle}<br/></h3>

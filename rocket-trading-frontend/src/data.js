@@ -118,32 +118,39 @@ const features = [
 const services = [
     {
         id:1,
-        cardPrice:'Free',
-        cardLined: ' ',
-        cardTitle:' ',
+        programType:'Hustler Program',
+        cardPrice:'$15',
+        cardLined: '$25',
+        cardTitle:'per month',
         servicesList:[
             {
                 id:"service1",
-                service:"Weekly Stock Picks"
+                service:"Daily sport picks"
             
             },
             {
                 id:"service2",
-                service:"Sports Bet Picks"
+                service:"High valued parlays"
             },
             {
                 id:"service3",
-                service:"Educational Resources"
+                service:"Betting strategies"
+            
+            },
+            {
+                id:"service3",
+                service:"Daily discussions on sports"
             
             }
             
         ],
-        link:"https://discord.gg/hZ2M9ZnQAB",
+        link:"https://launchpass.com/rocket-trading/hustler",
         buttonName:'Get Started'
     }
     ,  
     {
         id:0,
+        programType:'Elite Program',
         cardPrice: '$30',
         cardLined: '$60',
         cardTitle:'per month',
