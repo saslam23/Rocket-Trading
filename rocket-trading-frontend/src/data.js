@@ -119,8 +119,8 @@ const services = [
     {
         id:1,
         programType:'Hustler Program',
-        cardPrice:'$15',
-        cardLined: '$25',
+        cardPrice:'$40',
+        cardLined: '$50',
         cardTitle:'per month',
         servicesList:[
             {
