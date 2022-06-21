@@ -119,7 +119,7 @@ const services = [
     {
         id:1,
         programType:'Hustler Program',
-        cardPrice:'$40',
+        cardPrice:'$30',
         cardLined: '$50',
         cardTitle:'per month',
         servicesList:[
