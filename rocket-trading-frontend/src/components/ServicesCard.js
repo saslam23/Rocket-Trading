@@ -38,6 +38,7 @@ export default function ServicesCard(props) {
             
              <h3 className="service-card-number-lined">{item.cardLined}</h3>
             <h3 className="service-card-title">{item.cardTitle}<br/></h3>
+            <h5 className="service-card-title"><b>{item.blurb}</b></h5>
             <ul className="service-list-style">
              
                   {item.servicesList.map((item) =>{

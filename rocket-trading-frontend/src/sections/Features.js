@@ -3,7 +3,8 @@ import FeaturesCard from '../components/FeaturesCard'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import {features} from '../data';
-import { BsPeopleCircle } from 'react-icons/bs';
+import {IoPeopleCircle} from "react-icons/io"
+import { BsFillPeopleFill } from 'react-icons/bs'; 
 import { HiDocumentText } from 'react-icons/hi';
 import { RiMoneyDollarCircleLine } from 'react-icons/ri';
 import {GiCheckMark} from 'react-icons/gi';
@@ -11,8 +12,8 @@ import {GiCheckMark} from 'react-icons/gi';
 
 const feat = (item, index) =>{
     const icons=[
-        <BsPeopleCircle color={'#699aa4'} size="30"/>,
-        <HiDocumentText color="#699aa4" size="30" />,
+    <BsFillPeopleFill color={'#699aa4'} size="30"/>,
+      <HiDocumentText color="#699aa4" size="30" />,
         <RiMoneyDollarCircleLine color="#699aa4" size={30}/>,
         <GiCheckMark color="#699aa4" size={30}/>
     ]

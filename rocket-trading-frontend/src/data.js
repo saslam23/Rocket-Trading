@@ -118,33 +118,51 @@ const features = [
 const services = [
     {
         id:1,
-        programType:'Hustler Program',
-        cardPrice:'$30',
+        programType:'Sports Betting Chat',
+        cardPrice:'$40',
         cardLined: '$50',
         cardTitle:'per month',
+        blurb:"Join Nate's Sports Betting Community!",
         servicesList:[
             {
                 id:"service1",
-                service:"Daily sport picks"
+                service:"GUARANTEED 81% WIN PERCENTAGE"
             
             },
             {
                 id:"service2",
-                service:"High valued parlays"
+                service:"Daily Plays and Parlays"
             },
             {
                 id:"service3",
-                service:"Betting strategies"
+                service:"Player Props(PrizePicks & Underdog)"
             
             },
             {
                 id:"service3",
-                service:"Daily discussions on sports"
+                service:"Betting Advice"
+            
+            },
+            {
+                id:"service4",
+                service:"All Sports & E-Sports"
+            
+            },
+            
+            {
+                id:"service5",
+                service:'YOLO, MAX, and \"WAKE & CASH" BETS' 
+            
+            },
+            
+            {
+                id:"service6",
+                service:'FREE Player Statistics Tracker & More Betting Resources' 
             
             }
             
         ],
-        link:"https://launchpass.com/rocket-trading/hustler",
+        link:"https://nathanntle.gumroad.com/l/SportsChat",
         buttonName:'Get Started'
     }
     ,  
