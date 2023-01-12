@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "cd rocket-trading-frontend && npm install && npm run build"
   },
+
+    "engines": {
+      "node": "16.13.1"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/saslam23/Rocket-Trading.git"
