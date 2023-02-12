@@ -162,7 +162,7 @@ const services = [
             }
             
         ],
-        link:"https://nathanntle.gumroad.com/l/SportsChat",
+        link:"https://nntle.gumroad.com/l/SportsChat",
         buttonName:'Get Started'
     }
     ,  
